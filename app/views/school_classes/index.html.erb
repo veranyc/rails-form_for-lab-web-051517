@@ -1,0 +1,7 @@
+<h1>SchoolClasses#index</h1>
+<p>Find me in app/views/school_classes/index.html.erb</p>
+
+<% @school_classes.each do |class| %>
+  <div><%= class.title %></div>
+    <div><%= class.room_number %></div>
+<% end %>

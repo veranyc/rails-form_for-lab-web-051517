@@ -1,0 +1,7 @@
+<h1>Students#index</h1>
+<p>Find me in app/views/students/index.html.erb</p>
+
+<% @students.each do |student| %>
+  <div><%= student.first_name %></div>
+    <div><%= student.last_name %></div>
+<% end %>
